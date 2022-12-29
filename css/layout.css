@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+
+
+
+#vision{
+background: #ffffff;
+}
+#skill{
+  background: #ACB0D5;
+}
+#logo{
+background: #ffffff;
+}
+#menu{
+background: #bcbfdf;
+}
+
+
+.popup{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #4e4e4ea8;
+  z-index: 20;
+}
+.popup >div{
+  width: 560px;
+  height: 100px;
+  margin: 21% auto;
+  background-color: #888ba8;color: #fff;
+  font-weight: bold;
+  border-radius: 7px;
+  border: 5px double #fff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 25px;
+  padding:40px;
+}
+.popup >div >div{
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  color: #FFF;
+  margin:5% auto;
+  border-radius:3px;
+  padding: 5px  5px 8px 5px;
+  cursor: pointer;
+}
+.popup >div >div:hover{
+  background-color: #707286;
+}
+
+#introduction{
+  background: #bcbfdf;
+}
+#introduction .mainlogo{
+  width: 50px;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+#introduction .inner{
+  width: 100%;
+}
+.intro_box{
+  padding: 5%;
+}
+#introduction #main_profile{
+  width: 32%;
+  margin-right: 100px;
+  float: right;
+  border-radius: 30px;
+}
+#introduction #intro{
+  width: 55%;
+  margin-left: 4%;
+  float: left;
+}
+#introduction #intro >*{
+  margin-top: 40px;
+}
+#introduction #intro >h1{
+  margin-top: 150px;
+  font-size: 50px;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 15px;
+}
+#dynamic{
+  font-size: 50px;
+  background: linear-gradient(174deg, rgba(255,255,255,1) 0%, rgb(255, 249, 249) 58%, rgb(255, 185, 185) 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  line-height: 80px;
+  font-weight: bold;
+}
+#portfolio_include{
+  width: 100%;
+  height: 50px;
+  background-color: #bcbfdf;
+}
+#mouseIcon{
+  position: absolute;
+  width: 80px;
+  top:80%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  opacity: 0;
+  animation: mouse 1s infinite alternate;
+  transition: all 1s;
+}
+@keyframes mouse {
+  0%{transform: translateY(0px);}
+  100%{transform: translateY(30px);}
+}

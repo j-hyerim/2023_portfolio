@@ -1,0 +1,95 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Nanum+Myeongjo&family=Noto+Serif+KR:wght@300&family=Oleo+Script+Swash+Caps&family=Roboto+Mono:wght@400;700&display=swap');
+body{
+  overflow-x: hidden;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Merriweather', serif;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Noto Serif KR', serif;
+}
+
+body *:hover{
+  cursor : url(../image/mouse01.png) 20 30, url(../image/mouse02.png) 20 30, auto ;
+}
+body::-webkit-scrollbar {
+  width: 8px;  /* 스크롤바의 너비 */
+}
+
+body::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: #d2d5f8; /* 스크롤바의 색상 */
+  
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+}
+html,body{ margin:0; padding:0; width:100%; height:100%;}
+.boxwrap{width: 100%; height: 100%;}
+.box{position:relative; height:100%; display:flex; justify-content:center;}
+ul,ol,li{
+  list-style: none;
+  margin: 0px;padding: 0px;
+  text-align: left;
+}
+h2{
+  text-shadow: 3px 3px 5px rgb(212, 212, 212);
+}
+a{
+  text-decoration: none;
+  color: #333333;
+}
+.inner{
+  border-radius: 30px;
+}
+.button{
+  width: 170px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 40px;
+  box-shadow: 5px 5px 5px gray;
+}
+.mainlogo{
+  width: 50px;
+  position: fixed;
+  top: 40px;
+  left: 50px;
+  z-index: 22;
+}
+.logo_box{
+  width: 160px;
+  position: fixed;
+  top: 100px;
+  left: 50px;
+  z-index: 22;
+  overflow: hidden;
+}
+.logo_box >ul{
+  transition: all 0.6s;
+  height: 0px;
+}
+.logo_box >ul>li{
+  padding-top: 20px ;
+}
+.logo_box >ul>li:hover{}
+.logo_box >ul>li>a{
+  width: 130px;
+  background: #fff;
+  border-radius: 5px;
+  border: 3px double #eeeeee;
+  padding: 10px;
+  display: block;
+  transition: all 0.4s;
+}
+.logo_box >ul>li>a::after{
+  content: ">";
+  position: absolute;
+  right: 15px;
+}
+.logo_box >ul>li>a:hover{
+  background: rgb(243, 243, 243);
+  font-size: 17px;
+}
