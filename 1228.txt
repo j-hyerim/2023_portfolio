@@ -10,6 +10,9 @@ mouse over -> mockup slide
 make a slide menu bar 
 
 
-
+_blank*/*
+menu 안보여
+-> about 티나게
+마우스 커서 크기 단축 //학교
 ---------------------------------------
 2023_portfolio
