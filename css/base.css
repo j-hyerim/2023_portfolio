@@ -10,7 +10,7 @@ body{
 }
 
 body *:hover{
-  cursor : url(../image/mouse01.png) 20 30, url(../image/mouse02.png) 20 30, auto ;
+  cursor : url(../image/mouse01.png), url(../image/mouse02.png), auto ;
 }
 body::-webkit-scrollbar {
   width: 8px;  /* 스크롤바의 너비 */
