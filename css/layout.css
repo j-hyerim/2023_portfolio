@@ -1,8 +1,6 @@
 @charset "utf-8";
 
-
-
-
+/* layout */
 #vision{
 background: #ffffff;
 }
@@ -16,7 +14,7 @@ background: #ffffff;
 background: #bcbfdf;
 }
 
-
+/* popup css */
 .popup{
   position: absolute;
   left: 0px;
@@ -39,20 +37,8 @@ background: #bcbfdf;
   line-height: 25px;
   padding:40px;
 }
-.popup >div >div{
-  width: 100%;
-  height: 20px;
-  text-align: center;
-  color: #FFF;
-  margin:5% auto;
-  border-radius:3px;
-  padding: 5px  5px 8px 5px;
-  cursor: pointer;
-}
-.popup >div >div:hover{
-  background-color: #707286;
-}
 
+/* 소개 css */
 #introduction{
   background: #bcbfdf;
 }

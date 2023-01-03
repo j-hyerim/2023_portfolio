@@ -52,6 +52,8 @@ a{
   line-height: 40px;
   box-shadow: 5px 5px 5px gray;
 }
+
+/* logo */
 .mainlogo{
   width: 50px;
   position: fixed;
@@ -92,4 +94,17 @@ a{
 .logo_box >ul>li>a:hover{
   background: rgb(243, 243, 243);
   font-size: 17px;
+}
+.check_btn{
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  color: #FFF;
+  margin:5% auto;
+  border-radius:3px;
+  padding: 5px  5px 8px 5px;
+  cursor: pointer;
+}
+.check_btn:hover{
+  background-color: #707286;
 }

@@ -3,15 +3,12 @@ var winHeight = $(window).height();
 
 
 $(window).scroll(function () {
-    // console.log(window.scrollY); //스크롤값 확인하기
+    console.log(window.scrollY); //스크롤값 확인하기
     if ($(window).scrollTop() + winHeight >= docHeight) {
-        // var back1 = document.getElementsByClassName('hiscbox');
-        // back1.style.backgroundColor ="#red"
         document.getElementById('event_menu').classList.add('go_about');
     }
 
 });
-
 
 window.onload = function () {
     var elm = ".box";
@@ -81,8 +78,3 @@ var swiper = new Swiper(".mySwiper", {
 
 });
 
-$(document).ready(function () {
-
-
-
-});
